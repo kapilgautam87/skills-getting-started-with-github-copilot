@@ -78,11 +78,24 @@ section h3 {
   margin-top: 10px;
   padding-left: 20px;
   list-style-type: disc;
+  background-color: #f1f8e9; /* Add background for better visibility */
+  border: 1px solid #c5e1a5; /* Add border for emphasis */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Add padding for spacing */
+  font-size: 14px; /* Adjust font size for readability */
 }
 
 .activity-card ul li {
   margin-bottom: 5px;
-  color: #555;
+  color: #2e7d32; /* Use green for participant names */
+  font-weight: bold; /* Make text bold */
+  line-height: 1.4; /* Improve line spacing */
+}
+
+.activity-card ul li::before {
+  content: "👤 "; /* Add icon for participants */
+  color: #388e3c; /* Icon color */
+  font-size: 16px; /* Slightly larger icon */
 }
 
 .form-group {
